@@ -1,0 +1,14 @@
+numpy>=1.10
+scipy
+Image
+nltk
+Flask
+Flask-Uploads
+img2pdf
+opencv-python
+flask-socketio
+flask-cors
+google-cloud-vision
+python-dotenv
+stanfordcorenlp
+spacy

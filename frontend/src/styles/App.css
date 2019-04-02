@@ -1,0 +1,116 @@
+.App {
+  min-height: 100vh;
+}
+
+.App-welcome {
+  height: 100vh;
+  background: #CAEAE9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App-welcome .welcome-text {
+  color: #eb575d;
+  font-family: 'Pacifico', cursive;
+  padding: 0 20px 0 20px;
+  font-size: 15vh;
+}
+
+.App-welcome .App-description {
+  color: #666666;
+  font-family: 'Lato', sans-serif;
+  font-size: 4vh;
+  padding: 10px;
+}
+
+.App-welcome .team-name {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 4vh;
+}
+
+.App-welcome .welcome-bottom {
+  background: #eb575d;
+  height: 1vh;
+  align-self: flex-end;
+}
+
+.App-main {
+  color: white;
+  background: #18192b;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 30px;
+}
+
+.app-title-text {
+  padding-bottom: 10px;
+}
+
+.new-image {
+  text-align: right;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.new-image:hover {
+  color: #eb575d;
+}
+
+.App-title {
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.previews {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.previews img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.final-preview {
+  cursor: pointer;
+  outline: none;
+}
+
+.status-message {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #18192b;
+  border-radius: 30px;
+  border: 2px solid #3c3e63;
+}
+
+.message-text {
+  padding: 10px;
+}
+
+.upper-tables {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.lower-tables {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

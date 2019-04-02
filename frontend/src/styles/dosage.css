@@ -1,0 +1,14 @@
+.dosagetable .rt-thead {
+    font-weight: bold;
+    color: #e6e600;
+}
+
+.dosage-table {
+    align-self: flex-start;
+}
+
+.dosage-title {
+    font-size: 1.25rem;
+    padding-bottom: 30px;
+    color: #eb575d;
+}
